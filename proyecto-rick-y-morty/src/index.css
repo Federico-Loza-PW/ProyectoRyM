@@ -1,0 +1,7 @@
+body{
+  background-image: url(./rickymorty.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: "Raleway" ,sans-serif;
+  color: #344D67 ;
+}

@@ -1,0 +1,39 @@
+
+.custom-button {
+  display: flex;
+    font-size: 1rem; 
+    color:#6ECCAF;
+    background-color:#344D67;
+    border-radius: 0.25rem; 
+    text-decoration: none; 
+    text-align: center; 
+    cursor: pointer;
+    justify-content: center !important;
+    gap: 6px;
+    box-sizing: border-box;
+    margin-right: 10px;
+  margin-top: 30px;
+  padding: 15px;
+  width: 113px;
+
+
+
+
+  }
+  
+ 
+.custom-button:hover {
+    background-color:#6ECCAF;
+    transform: scale(1.05); 
+   color:#344D67
+  }
+  
+ 
+  .custom-button:active {
+    background-color:#6ECCAF;
+color:#344D67;
+    transform: scale(0.98); 
+  }
+  
+  
+
