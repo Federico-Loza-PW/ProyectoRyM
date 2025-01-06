@@ -10,14 +10,14 @@ export default function Navegation() {
   </h1>
   <ul className="nav-links">
     <li>
-      <button className="nav-button">
-        <Link to="/Characters" >Characters</Link>
-      </button>
+      <Link to="/Characters" className="nav-button">
+        Characters
+      </Link>
     </li>
     <li>
-      <button className="nav-button">
-        <Link to="/Contact">Contact</Link>
-      </button>
+      
+        <Link to="/Contact" className='nav-button'>Contact</Link>
+      
     </li>
   </ul>
 </nav>

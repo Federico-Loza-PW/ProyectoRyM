@@ -1,0 +1,17 @@
+
+
+
+
+
+.chek{ display: flex ;
+    color: #6ECCAF;
+background-color: #344D67;
+border-radius: 10%;
+justify-content: space-between !important;
+box-sizing: border-box;
+margin: 0 !important;
+padding: 8px 48px !important;
+padding: .5rem ;
+
+
+}

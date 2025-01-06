@@ -1,8 +1,9 @@
 .subt-1{
     display: none;
 }
-.form{
-    display: none;
+.checks{
+    display:flex !important;
+    justify-content: space-between !important;
 }
 @media(min-width:720px){
     .mobile-filters{
@@ -17,3 +18,27 @@
     }
 
 }
+
+
+.subt-1{
+    color:#344D67 ;
+      font-size: 2rem;
+      padding: 24px;
+    }
+
+    .color{ background-color:#6ECCAF ;
+   color:#344D67;
+    }
+
+
+
+.container-alert{ background-color: #6ECCAF;
+color: #344D67;
+height: 57px;
+  width: 95%;}
+     
+
+    .form{
+        display: flex;
+        justify-content: space-between;
+    }

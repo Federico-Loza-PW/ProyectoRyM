@@ -52,9 +52,9 @@ export default function Characters() {
         
        filtrosAplicados.forEach((filtro)=>{
         let nuevaLista;
-
+      
         switch (filtro) {
-            case "Character Alive":
+            case  "Character Alive":
                 nuevaLista=data.filter((personaje)=>{return personaje.status === "Alive"})
                 break;
 
@@ -93,21 +93,22 @@ export default function Characters() {
         <div>
             <Navegation/>
           
-            <h2 className='text-white subt-1'>Filters</h2>
+            <h2 className='subt-1 p-4'>Filters</h2>
             
             <div className='mobile-filters bg-success d-flex gap-3 my-3' onClick={()=>{setShow(!show)}}>
-                <h2 className='text-white'>Filters</h2>
+    
+
                 <p>Icono</p>
             </div>
-          
-                <form className={show? 'form row gap-2':'row gap-2'}>
+          <div className='c-form d-flex justify-content-between'>
+                <form className={show? 'checks form row gap-2 d-flex justify-content-between':'row gap-2'}>
                     {
                         filterName.map((filter)=>{
                             return  <Filter key={filter} title={filter} filtar={filtrar}/>
                         })
                     }  
                 </form>          
-        
+                </div>
 
             <section className='d-flex gap-2 flex-wrap'>
             {
@@ -117,8 +118,8 @@ export default function Characters() {
                     return <Card key={personaje.id} personaje={personaje}/>
                 })
                 :
-                <p className='alert bg-success'>
-                <i className="bi bi-exclamation-triangle-fill pe-2"></i>Sorry! There are no characters width all those properties.</p>
+                <p className='container-alert alert d-flex ailing-items-center gap-2 rouded-2 '>
+                <i className="color d-flex bi bi-exclamation-triangle-fill pe-2 fs-5 "></i>Sorry! There are no characters width all those properties.</p>
             }
                 
             </section>      
